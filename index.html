@@ -6,13 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>칭찬스티커</title>
   <link rel="stylesheet" href="./css/common.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+  </style>
 </head>
 <body>
-  <a href="" id="finish-btn">그림 완성</a>
-  <a href="" id="list">도장 보기</a>
+  <div class="btn-box">
+    <a href="" id="finish" class="btn" >그림 완성</a>
+    <a href="" id="list" class="btn">도장 보기</a>
+  </div>
 
   <!--  모달 그림 완성 제출 양식 -->
-  <div class="modal-input">
+  <div class="modal modal-input">
     <div class="modal-body">
       이름: <br />
       그림: <br />
@@ -20,5 +25,6 @@
     </div>
   </div>
   <!-- // 모달 그림 완성 제출 양식 -->
+  <script src="./js/common.js"></script>
 </body>
 </html>
